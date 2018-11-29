@@ -7,7 +7,7 @@ header nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #00b279;
     font-size : 1.25vw;
     font-family:"Verdana";
 }
@@ -30,7 +30,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #111111;
+    background-color: #007b54;
 }
 nav ul li p{
     display: block;
@@ -43,21 +43,6 @@ ul#menu li{
     display: inline;
 
 }
-.navbar {
-    overflow: hidden;
-    background-color: #333;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.navbar a {
-    float: left;
-    font-size: 1.25vw;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
 .dropdown {
     float: left;
     overflow: hidden;
@@ -75,8 +60,8 @@ ul#menu li{
     margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-    background-color: #848484;
+.dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: #007b54;
     font-size: 1.25vw;
 }
 
@@ -104,4 +89,61 @@ ul#menu li{
 
 .show {
     display: block;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+#QCcover {
+    background-image: url("pic/1025_qc.jpg");
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#EWcover {
+    background-image: url("pic/electronicwaste.jpg");
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container .topic,.container .word-content {
+    width: 95%;
+    max-width: 1200px;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+.topic{
+    font-family:"montserratbold";
+    font-weight: 700;
+    font-size: 30px;
+}
+.word-content{
+  font-size: 22px;
+  font-family: 'latoregular';
+  font-weight: 400;
+  color: #7f8383;
+  line-height: 35px;
+  word-wrap: break-word;
+
+}
+p::first-letter {
+    font-size: 500%;
+    color: #2E2E2E;
+}
+a{
+  text-decoration: none;
+  color: #2E2E2E;
+  font-style: italic
+}
+
+#nav-index{
+  position: fixed;
+  top: 0;
+  width: 100%;
 }

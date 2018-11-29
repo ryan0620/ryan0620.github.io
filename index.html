@@ -1,64 +1,51 @@
 </<!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>3B10CLproject</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-        <nav id="nav-index">
-          <ul id="menu">
-            <li>
-              <a href="https://qc.edu.hk/" target="_blank">
-              <img src="pic/qclogo.png" alt="qc.edu.hk"style="width:81px;height:93px;">
-              </a>
-            </li>
-            <li>
-              <p><a href="index.html">
-                Queen's College E-learning site
-                </a>
-              </p>
-            </li>
-            <li>
-            </li>
-            <li>
-            </li>
-            <li align="right">
-              <div class="dropdown">
-                  <button class="dropbtn" onclick="myFunction()">Sitemap ▾
-                    <i class="fa fa-caret-down"></i>
-                  </button>
-                  <div class="dropdown-content" id="myDropdown">
-                    <a href="#">Introduction</a>
-                    <a href="#">GreenICT</a>
-                  </div>
-                </div>
-            </li>
-          </ul>
-        </nav>
-    </header>
-    <main>
-      <h1>
-        Introduction
-      </h1>
-    </main>
-    <script>
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-    var myDropdown = document.getElementById("myDropdown");
-      if (myDropdown.classList.contains('show')) {
-        myDropdown.classList.remove('show');
-      }
-  }
-}
-</script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>3B10CLproject</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav id="nav-index">
+      <ul id="menu">
+      <li>
+        <a href="https://qc.edu.hk/" target="_blank">
+          <img src="pic/qclogo.png" alt="qc.edu.hk"style="width:81px;height:93px;">
+        </a>
+      </li>
+      <li>
+        <p><a href="index.html">Queen's College E-learning site</a></p>
+      </li>
+      <li>
+      </li>
+      <li>
+      </li>
+      <li align="right">
+      <div class="dropdown">
+      <button class="dropbtn" onclick="DD()">Sitemap ▾
+      </button>
+      <div class="dropdown-content" id="Dropdownmap">
+        <a href="#Introduction">Introduction</a>
+        <a href="#">Green of ICT</a>
+        <a href="#">Green by ICT</a>
+      </div>
+      </div>
+      </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <div id="QCcover"></div>
+      <div id="Introduction"/>
+      <h1 class="topic" >Introduction</h1>
+      <p class="word-content">
+        <a href="https://en.wikipedia.org/wiki/Green_computing" target="_blank">
+        Green ICT</a> refers to using Information and Communication Technology efficiently and effectively with minimal or no harmful impact on the enviroment. The ICT resources that we use should be enviromentally friendly and sustainable. The aim of Green ICT is to reduce pollution, improve the enviroment,and conserver natural resources when using computer technology.</p>
+      <div id="ewcover"></div>
+  </div>
+  </main>
+</body>
 </html>

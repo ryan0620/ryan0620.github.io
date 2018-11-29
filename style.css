@@ -27,6 +27,7 @@ nav ul li a {
     text-align: center;
     padding: 16px;
     text-decoration: none;
+    font-family: "Verdana";
 }
 
 nav ul li a:hover {
@@ -96,7 +97,7 @@ ul#menu li{
 }
 #QCcover {
     background-image: url("pic/1025_qc.jpg");
-    min-height: 1000px;
+    min-height: 725px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -104,7 +105,23 @@ ul#menu li{
 }
 #EWcover {
     background-image: url("pic/electronicwaste.jpg");
-    min-height: 700px;
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#gogreen {
+    background-image: url("pic/gogreen.png");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#netbar {
+    background-image: url("pic/netbar.jpg");
+    min-height: 600px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -118,10 +135,15 @@ ul#menu li{
     margin-left: auto;
     margin-top: 50px;
 }
-.topic{
+.topic h1{
     font-family:"montserratbold";
     font-weight: 700;
     font-size: 30px;
+}
+.topic h2{
+    font-family:"montserratbold";
+    font-weight: 700;
+    font-size: 28px;
 }
 .word-content{
   font-size: 22px;
@@ -132,11 +154,12 @@ ul#menu li{
   word-wrap: break-word;
 
 }
-p::first-letter {
+.word-content::first-letter {
     font-size: 500%;
     color: #2E2E2E;
+    font-style: italic;
 }
-a{
+.word-content a{
   text-decoration: none;
   color: #2E2E2E;
   font-style: italic
@@ -146,4 +169,7 @@ a{
   position: fixed;
   top: 0;
   width: 100%;
+}
+b{
+  color: #3a3a3a;
 }

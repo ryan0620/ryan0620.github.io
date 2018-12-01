@@ -127,6 +127,22 @@ ul#menu li{
     background-repeat: no-repeat;
     background-size: cover;
 }
+#recy {
+    background-image: url("pic/computer_recycling.jpg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#avengers {
+    background-image: url("pic/avengers.png");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .container .topic,.container .word-content {
     width: 95%;
     max-width: 1200px;
@@ -155,9 +171,14 @@ ul#menu li{
 
 }
 .word-content::first-letter {
-    font-size: 500%;
+    font-size: 400%;
     color: #2E2E2E;
     font-style: italic;
+    float: left;
+    line-height: 60px;
+    padding-top: 0px;
+    padding-right: 8px;
+    padding-left: 3px;
 }
 .word-content a{
   text-decoration: none;

@@ -151,7 +151,15 @@ ul#menu li{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.container .topic,.container .word-content {
+#threeR{
+  background-image: url("pic/3R.jpeg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container .topic,.container .word-content,.table,.container .word-content2 {
     width: 95%;
     max-width: 1200px;
     padding: 0;
@@ -186,6 +194,15 @@ ul#menu li{
     padding-right: 8px;
     padding-left: 3px;
 }
+.word-content2{
+  font-size: 22px;
+  font-family: 'latoregular';
+  font-weight: 400;
+  color: #7f8383;
+  line-height: 35px;
+  word-wrap: break-word;
+}
+
 .word-content a{
   text-decoration: none;
   color: #2E2E2E;
@@ -210,6 +227,7 @@ table, th, td {
   font-size: 26px;
   border-collapse: collapse;
   font-family: "Verdana";
+  padding: 15px;
 }
 td p {
   margin:0px;

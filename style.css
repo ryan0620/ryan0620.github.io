@@ -137,7 +137,7 @@ ul#menu li{
 }
 #avengers {
     background-image: url("pic/avengers.png");
-    min-height: 600px;
+    min-height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -159,6 +159,14 @@ ul#menu li{
   background-repeat: no-repeat;
   background-size: cover;
 }
+#egov{
+  background-image: url("pic/egov.png");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .container .topic,.container .word-content,.table,.container .word-content2 {
     width: 95%;
     max-width: 1200px;
@@ -166,6 +174,9 @@ ul#menu li{
     margin-right: auto;
     margin-left: auto;
     margin-top: 50px;
+}
+.container img{
+    margin-left: 500px;
 }
 .topic h1{
     font-family:"montserratbold";
